@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | [Challenge Name Here]</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,900;1,300;1,400;1,500;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="overflow-x-hidden bg-appBackground">
+    <div
+      class="absolute h-[80vh] w-[40%] bg-paleViolent rounded-br-[50%] -left-44 bg-gradient-to-bl from-lightMagenta to-moderateViolent"
+    >
+      &nbsp;
+    </div>
+    <header
+      class="relative flex flex-col justify-center items-center w-[95%] m-[auto] py-24 md:flex-row md:w-[70%]"
+    >
+      <!-- phone-section -->
+      <section
+        class="flex flex-col p-2 bg-white rounded-2xl w-[70%] md:w-[45%]"
+      >
+        <!-- nav -->
+        <nav class="nav">
+          <div class="curv"></div>
+          <div class="flex flex-row gap-5 items-center">
+            <span class="text-white text-4xl">&lt;</span>
+            <img
+              class="h-12 w-12 rounded-full object-cover"
+              src="images/avatar.jpg"
+              alt=""
+            />
+            <span>
+              <h3 class="text-white">Samuel Green</h3>
+              <p class="text-greyishBue">Available to Walk</p>
+            </span>
+          </div>
+          <div>
+            <img class="w-[4rem] h-[4rem]" src="images/menu.png" alt="" />
+          </div>
+        </nav>
+        <!-- main -->
+        <main class="bg-appBackground p-5">
+          <!-- left-chat -->
+          <span class="relative">
+            <div
+              class="text-lightViolet w-[60%] p-4 bg-greyishBue rounded-2xl mb-2"
+            >
+              <p>That sounds great. I’d be happy with that.</p>
+            </div>
+            <div
+              class="text-lightViolet w-[60%] p-4 bg-greyishBue rounded-2xl mb-4"
+            >
+              <p>Could you send over some pictures of your dog, please?</p>
+            </div>
+          </span>
+          <!-- right-chat -->
+          <span class="relative">
+            <div class="w-[60%] flex flex-row gap-3 ml-auto mb-3">
+              <img class="image" src="images/dog-image-1.jpg" alt="" />
+              <img class="image" src="images/dog-image-2.jpg" alt="" />
+              <img class="image" src="images/dog-image-3.jpg" alt="" />
+            </div>
+            <div class="w-[50%] ml-auto bg-white rounded-2xl mb-2 p-2">
+              <p class="text-darkViolet">
+                Here are a few pictures. She’s a happy girl!
+              </p>
+            </div>
+            <div class="w-[30%] ml-auto bg-white p-3 rounded-2xl mb-3">
+              <p class="text-darkViolet">Can you make it?</p>
+            </div>
+          </span>
+          <!-- left -->
+          <span class="relative">
+            <div
+              class="text-lightViolet w-[60%] p-4 bg-greyishBue rounded-2xl mb-4"
+            >
+              <p>
+                She looks so happy! The time we discussed works. How long shall
+                I take her out for?
+              </p>
+            </div>
+            <div
+              class="flex flex-row justify-between w-[70%] bg-gradient-to-l from-moderateViolent to-lightMagenta p-3 rounded-tl-3xl rounded-bl-xl rounded-r-2xl text-white px-4 mb-3"
+            >
+              <div class="flex flex-row gap-2 items-center">
+                <span
+                  class="rounded-full h-4 w-4 bg-transparent border-2 border-white border-solid"
+                ></span>
+                <p>30 minute walk</p>
+              </div>
+              <p class="font-bold text-xl">$29</p>
+            </div>
+            <div
+              class="flex flex-row justify-between w-[70%] bg-gradient-to-l from-moderateViolent to-lightMagenta p-3 rounded-tl-3xl rounded-bl-xl rounded-r-2xl text-white px-4 mb-6"
+            >
+              <div class="flex flex-row items-center gap-2">
+                <span
+                  class="rounded-full h-4 w-4 bg-transparent border-2 border-white border-solid"
+                ></span>
+                <p>1 hour walk</p>
+              </div>
+              <p class="font-bold text-xl">$49</p>
+            </div>
+          </span>
+          <div class="w-full relative">
+            <input
+              class="w-full p-6 rounded-[4rem] text-3xl focus:outline-none"
+              placeholder="Type a message…"
+              type="text"
+            />
+            <img
+              class="absolute top-5 right-3 h-12 w-12"
+              src="images/arrow.png"
+              alt=""
+            />
+          </div>
+        </main>
+      </section>
+
+      <!-- book-section -->
+      <section
+        class="w-[70%] flex flex-col justify-center items-center ml-11 text-center md:[45%]"
+      >
+        <h2 class="font-bold text-lg mb-8 text-desaturatedViolent uppercase">
+          Simple booking
+        </h2>
+        <p class="text-grayishViolet">
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </p>
+      </section>
+    </header>
+  </body>
+</html>
+<!-- 
+ 
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  Type a message…
+
+  
+
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
